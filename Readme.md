@@ -20,7 +20,7 @@ $polygon = [
 ## Running the Script
 To run the script, save the provided PHP code to a file (e.g., polygon_to_geohash.php) and execute it using the PHP command line:
 ```php
-php index.php
+php example.php
 ```
 Make sure to adjust the $polygon variable with your own polygon vertices before running the script.
 
