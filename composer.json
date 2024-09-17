@@ -1,0 +1,17 @@
+{
+    "name": "sadegh/polygon-to-geohash",
+    "description": "This PHP code takes a polygon (defined by an array of latitude and longitude points) and generates 8-character Geohashes for the grid points that fall within the polygon. It uses an efficient method to avoid duplicate Geohashes by leveraging SplObjectStorage. The precision for Geohash length is constant, ensuring consistent Geohash sizes. To optimize memory usage, a generator yields Geohashes progressively, avoiding the need to store all values in memory at once.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "PolygonToGeoHash\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sadegh",
+            "email": "adyani.sadegh@gmail.com"
+        }
+    ],
+    "require": {}
+}
